@@ -16,6 +16,11 @@ name:string;
 })
 no:number; 
 
+@Prop({
+    unique:true,
+    index:true
+})
+url:string; 
 
 }
 

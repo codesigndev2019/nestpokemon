@@ -16,7 +16,10 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
-
+5. Reconstruir BD con la semilla (SEED) Solamente en desarrollo y si no hay pokemons en la BD
+```
+http://localhost:3000/api/v2/pokemon/567
+```
 
 
 ## Stack usado
